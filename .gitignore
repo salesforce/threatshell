@@ -1,0 +1,11 @@
+*.sh
+*.pyc
+*.pyo
+*_pycache_*
+*.DS_Store
+.coverage
+.eggs
+threatshell.egg-info
+docs/build
+build
+test_config.ini
