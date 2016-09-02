@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 ##############################################################################
 # Author: Tommy Stallings <tommy.stallings@salesforce.com>
 # Copyright (c) 2016, Salesforce.com, Inc.
@@ -30,7 +31,6 @@
 # POSSIBILITY OF SUCH DAMAGE.
 ##############################################################################
 
-# -*- coding: utf-8 -*-
 import random
 import sys
 
