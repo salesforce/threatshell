@@ -1,4 +1,4 @@
-threatshell
+Threatshell
 ===========
 
 Threatshell is a python-based command line shell aimed at providing security
