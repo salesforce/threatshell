@@ -17,7 +17,7 @@ Please see the docs for installation help and for threatshell usage details.
 
 I recommend using python virtual environments (virtualenvs) if you don't
 already. If you'd like to use a virtualenv, I detail (roughly) how to set one
-up in (the docs)[http://threatshell.readthedocs.io/en/latest/install.html],
+up in [**the docs**](http://threatshell.readthedocs.io/en/latest/install.html),
 and there are plenty of awesome tutorials for setting up and using virtualenvs
 out there already if you still have questions.
 
@@ -26,7 +26,7 @@ Documentation
 =================
 
 Threatshell's documentation can be found
-(here)[http://threatshell.readthedocs.io/en/latest/index.html]
+[**here**](http://threatshell.readthedocs.io/en/latest/index.html)
 
 
 Quick Start
@@ -65,4 +65,4 @@ directory, `$HOME/.threatshell`, and prompt you for a password for the
 crypto key it generates to keep all of your config's secrets safe. Then,
 once your key is generated, it asks for your API keys and other settings.
 You can just enter through the prompts and set the keys later with the
-(config management commands)[http://threatshell.readthedocs.io/en/latest/commands.html#config-management-commands]
+[**config management commands**](http://threatshell.readthedocs.io/en/latest/commands.html#config-management-commands)
