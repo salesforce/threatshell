@@ -17,36 +17,52 @@ Please see the docs for installation help and for threatshell usage details.
 
 I recommend using python virtual environments (virtualenvs) if you don't
 already. If you'd like to use a virtualenv, I detail (roughly) how to set one
-up in the install section of the docs, and there are plenty of awesome
-tutorials for setting up and using virtualenvs out there already if you still
-have questions.
+up in (the docs)[http://threatshell.readthedocs.io/en/latest/install.html],
+and there are plenty of awesome tutorials for setting up and using virtualenvs
+out there already if you still have questions.
 
 
-Building the Docs
+Documentation
 =================
 
-(Eventually, I'll get these docs up on a proper documentation site)
+Threatshell's documentation can be found
+(here)[http://threatshell.readthedocs.io/en/latest/index.html]
+
+
+Quick Start
+==============
+
+You can get up and running with threatshell with the following few steps -
+
+First, you'll need the GeoIP library for geocoding IP addresses.
+
+On ubuntu:
+
+    sudo apt-get install libgeoip-dev
+
+On OSX:
+
+    brew install GeoIP
+
+Then activate your virtualenv if you're using one for the next commands
 
     # make sure pip is up to date if you want
     pip install --upgrade pip
 
-    # you will need sphinx at least
-    pip install sphinx
-
-    # you can also install everything with
+    # you can install everything with
     # pip install -r requirements.txt
     # or
     # python setup.py install
 
-    # you can build and view the
-    # docs this way
-    python setup.py build_sphix
-    cd docs/build/html
+    pip install -r requirements.txt
 
-    # or this way
-    cd docs
-    make html
-    cd build/html
+Now you can start up threatshell with
 
-Now you should be able to open index.html in a browser to navigate around
-the built documentation.
+    python threatshell.py
+
+If it's your first time running threatshell, it will create a config
+directory, `$HOME/.threatshell`, and prompt you for a password for the
+crypto key it generates to keep all of your config's secrets safe. Then,
+once your key is generated, it asks for your API keys and other settings.
+You can just enter through the prompts and set the keys later with the
+(config management commands)[http://threatshell.readthedocs.io/en/latest/commands.html#config-management-commands]
