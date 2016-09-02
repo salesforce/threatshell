@@ -3,10 +3,10 @@ threatshell
 
 Threatshell is a python-based command line shell aimed at providing security
 researchers with a single, integrated environment for gathering information
-from various intelligence APIs and analysis scripts, and storing all the
+from various intelligence APIs and analysis scripts, and storing all of the
 obtained information into one or more elasticsearch instances. The goal of
 keeping the results in elasticsearch being to provide a historical search
-mechanism for all of gathered information, and to start building a clever
+mechanism for all of the gathered information, and to start building a clever
 event analyzer to assist in hunting and analysis activities.
 
 
@@ -15,11 +15,11 @@ Notes
 
 Please see the docs for installation help and for threatshell usage details.
 
-I recommend using python virtual environments if you don't already. If you'd
-like to use python virtual environments, I detail (roughly) how to set one up
-in the install section of the docs, and there are plenty of awesome tutorials
-for setting up and using virtualenvs out there already if you still have
-questions.
+I recommend using python virtual environments (virtualenvs) if you don't
+already. If you'd like to use a virtualenv, I detail (roughly) how to set one
+up in the install section of the docs, and there are plenty of awesome
+tutorials for setting up and using virtualenvs out there already if you still
+have questions.
 
 
 Building the Docs
