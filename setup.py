@@ -53,7 +53,13 @@ def read(*filenames, **kwargs):
     return sep.join(buf)
 
 long_description = read('README.md')
-requirements = read("requirements.txt")
+
+# TODO: fix this
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
+if on_rtd:
+    requirements = read("sphinx_req.txt")
+else:
+    requirements = read("requirements.txt")
 
 
 class PyTest(TestCommand):
