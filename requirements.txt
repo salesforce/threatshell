@@ -22,7 +22,7 @@ pycparser==2.13
 pycrypto==2.6.1
 pyflakes==0.8.1
 Pygments==2.1.3
-pyOpenSSL==0.15.1
+pyOpenSSL==17.5.0
 pytest==2.7.1
 pytest-cov==2.2.1
 python-dateutil==2.5.1
